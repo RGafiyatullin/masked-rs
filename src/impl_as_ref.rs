@@ -1,4 +1,3 @@
-
 use crate::Masked;
 
 impl<T> AsRef<T> for Masked<T> {

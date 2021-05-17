@@ -1,4 +1,3 @@
-
 use crate::Masked;
 
 pub trait MaskedExt: Sized {

@@ -1,4 +1,3 @@
-
 use crate::Masked;
 
 impl<T> From<T> for Masked<T> {

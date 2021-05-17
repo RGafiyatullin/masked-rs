@@ -1,4 +1,3 @@
-
 use std::fmt;
 
 use crate::Masked;
@@ -8,4 +7,3 @@ impl<T> fmt::Debug for Masked<T> {
         write!(f, "Masked<{}>", std::any::type_name::<T>())
     }
 }
-
